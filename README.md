@@ -26,7 +26,6 @@ npm run start
 👤 **kazookitv**
 
 * Website: https://interstellar.eu.org
-* Twitter: [@Polygonalic](https://twitter.com/Polygonalic)
 * Github: [@kazookitv](https://github.com/kazookitv)
 
 ## Show your support

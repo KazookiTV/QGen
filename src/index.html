@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QGen</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <script defer src="./js/appFunctions.js"></script>
+  <script src="./js/qrcode.min.js"></script>
+</head>
+<body>
+    <nav>
+      <ul>
+        <li>QGen</li>
+        <li id="minimum" class="min">-</li>
+        <li id="maximum" class="max">□</li>
+        <li id="close" class="ext">x</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div>
+        <h1>QGen</h1>
+        <p>QGen is a QR Code Generator that doesnt have all of those ads and pop-ups. Its just simple and easy.</p>
+        <ol>
+          <li>Put a link into the textbox</li>
+          <li>Press the generate button</li>
+          <li>Screenshot the newly generated QR Code</li>
+        </ol>
+        <p>Now you can put it anywhere you want like stickers, posters or anything!</p>
+      </div>
+      <div>
+        <input type="text" name="" id="url" placeholder="Put any URL here">
+        <input type="submit" value="Generate!" onclick="generate()">
+        <div id="qrcode"></div>
+        <script type="text/javascript">
+          function generate() {
+            var url = document.getElementById("url").value;
+            new QRCode(document.getElementById("qrcode"), url);
+          }
+        </script>
+      </div>
+    </div>
+</body>
+</html>

@@ -23,6 +23,11 @@
 npm run start
 ```
 
+If you want to be that one crazy person and package the app by yourself then do this
+```sh
+npm run make
+```
+
 ## Author
 
 👤 **kazookitv**

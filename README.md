@@ -14,7 +14,7 @@
 ## Install
 
 ```sh
- 
+ git clone https://github.com/KazookiTV/QGen.git
 ```
 
 ## Usage

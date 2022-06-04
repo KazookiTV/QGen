@@ -4,9 +4,6 @@
   <a href="https://github.com/KazookiTV/QGen/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
-  <a href="https://twitter.com/Polygonalic" target="_blank">
-    <img alt="Twitter: Polygonalic" src="https://img.shields.io/twitter/follow/Polygonalic.svg?style=social" />
-  </a>
 </p>
 
 > This is the best app for making qr codes becaause we dont have those annoying pop-ups and ads everywhere

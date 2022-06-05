@@ -1,7 +1,7 @@
 {
   "name": "qr-generator",
   "productName": "qr-generator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This is the best app for making qr codes becaause we dont have those annoying pop-ups and ads everywhere",
   "main": "src/index.js",
   "scripts": {
@@ -20,12 +20,16 @@
   "license": "MIT",
   "config": {
     "forge": {
-      "packagerConfig": {},
+      "packagerConfig": {
+        "icon": "./appicons/icon",
+        "name": "QGen",
+        "executableName": "qgen"
+      },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "qr_generator"
+            "name": "QGen"
           }
         },
         {
@@ -36,7 +40,9 @@
         },
         {
           "name": "@electron-forge/maker-deb",
-          "config": {}
+          "config": {
+            "icon": "./appicons/icon.png"
+          }
         },
         {
           "name": "@electron-forge/maker-rpm",

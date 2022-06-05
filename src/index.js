@@ -13,7 +13,9 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 1200,
     height: 700,
-    icon: __dirname + '/img/icon.png',
+    minHeight: 450,
+    minWidth: 450,
+    icon: path.join(__dirname, '../appicons/icon.png'),
     frame: false,
     webPreferences: {
       nodeIntegration: true,
@@ -38,9 +40,6 @@ const createWindow = () => {
   ipc.on('closeApp', () => {
     mainWindow.close();
   })
-
-  // Open the DevTools.
-  mainWindow.webContents.openDevTools();
 };
 
 // This method will be called when Electron has finished

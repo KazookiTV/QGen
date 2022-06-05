@@ -1,11 +1,8 @@
 <h1 align="center">Welcome to QGen 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="#" target="_blank">
+  <a href="https://github.com/KazookiTV/QGen/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-  </a>
-  <a href="https://twitter.com/Polygonalic" target="_blank">
-    <img alt="Twitter: Polygonalic" src="https://img.shields.io/twitter/follow/Polygonalic.svg?style=social" />
   </a>
 </p>
 
@@ -14,12 +11,13 @@
 ## Install
 
 ```sh
- 
+ git clone https://github.com/KazookiTV/QGen.git
 ```
 
 ## Usage
 
 ```sh
+npm install
 npm run start
 ```
 
@@ -28,7 +26,6 @@ npm run start
 👤 **kazookitv**
 
 * Website: https://interstellar.eu.org
-* Twitter: [@Polygonalic](https://twitter.com/Polygonalic)
 * Github: [@kazookitv](https://github.com/kazookitv)
 
 ## Show your support
